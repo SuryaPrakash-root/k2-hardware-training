@@ -1,0 +1,27 @@
+# --- Heavy / local-only (never publish) ---
+venv/
+frontend/node_modules/
+models/
+*.safetensors
+*.gguf
+
+# --- User uploads & generated artifacts ---
+backend/uploads/
+logs/
+rag_index/
+*.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Env ---
+.env
+.env.*
